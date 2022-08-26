@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+/*
+#pizza para to sa image
+*/
+#pizz{
+    background-image: url("C:/Laravel 8 Crash Course/Food_Ordering_System/public/img/clipboard.jpg") ;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+
+
+.board, .button{
+  size: 15px;
+}
+
+.board, .right{
+  font-size: 20px;
+}
+
+.board .right{
+  width: 65%;
+  padding: 30px 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.board .right .checkout{
+  margin-bottom: 25px;
+}
+
+.board .right .checkout h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    letter-spacing: 5px;
+    width: 100%;
+}
+
+.board .right .order_pizza{
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+}
+
+.board .right .order_pizza .pizza{
+  width: 45%;
+}
+
+.board .right .order_pizza .pizza h4{
+    color: #000000;
+    margin-bottom: 5px;
+
+}
+
+.board .right .order_pizza .pizza p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #000000;
+  
+}
+

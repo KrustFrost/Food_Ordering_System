@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+  
+  #tableadmin {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Tahoma", sans-serif;
+    margin: 0;
+  }
